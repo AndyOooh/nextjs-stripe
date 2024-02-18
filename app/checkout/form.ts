@@ -1,4 +1,6 @@
 import React, { FormEvent } from 'react';
+import Stripe from 'stripe';
+import getStripe from '../utils/get-stripejs';
 
 type Props = {};
 
